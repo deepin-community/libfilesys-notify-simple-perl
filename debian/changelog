@@ -1,5 +1,137 @@
-template-repository (1.0-1) unstable; urgency=medium
+libfilesys-notify-simple-perl (0.14-3) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Wrap long lines in changelog entries: 0.14-2.
+  * Update standards version to 4.6.1, no changes needed.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 19 Nov 2022 19:52:35 +0000
+
+libfilesys-notify-simple-perl (0.14-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Update standards version to 4.5.0, no changes needed.
+  * Apply multi-arch hints. + libfilesys-notify-simple-perl: Add Multi-Arch:
+    foreign.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 16 Oct 2022 06:00:51 +0100
+
+libfilesys-notify-simple-perl (0.14-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Xavier Guimard ]
+  * Email change: Xavier Guimard -> yadd@debian.org
+
+  [ gregor herrmann ]
+  * Import upstream version 0.14.
+  * Update years of upstream copyright.
+  * Annotate test-only build dependencies with <!nocheck>.
+  * Declare compliance with Debian Policy 4.4.1.
+  * Bump debhelper-compat to 12.
+  * debian/watch: use uscan version 4.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 11 Jan 2020 23:45:01 +0100
+
+libfilesys-notify-simple-perl (0.13-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Jonathan Yu from Uploaders. Thanks for your work!
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * Add debian/upstream/metadata.
+  * Import upstream version 0.13.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.1.3.
+  * Bump debhelper compatibility level to 10.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 18 Mar 2018 17:54:05 +0100
+
+libfilesys-notify-simple-perl (0.12-1) unstable; urgency=low
+
+  * Imported Upstream version 0.12
+  * debian/copyright:
+    - Update debian years
+    - Remove inc/Module/ section
+
+ -- Angel Abad <angel@debian.org>  Sun, 16 Jun 2013 12:12:46 +0200
+
+libfilesys-notify-simple-perl (0.10-1) unstable; urgency=low
+
+  [ Angel Abad ]
+  * Email change: Angel Abad -> angel@debian.org
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Xavier Guimard ]
+  * Imported Upstream version 0.10
+  * debian/copyright:
+    + bump format to 1.0
+    + update years
+    + remove inc/Test* (removed in upstream)
+    + add inc/Module/Install/{AuthorTests,ReadmeFromPod,Repository}.pm
+      licenses
+  * Bump Standards-Version to 3.9.4
+  * Update description
+
+ -- Xavier Guimard <x.guimard@free.fr>  Tue, 12 Mar 2013 06:07:07 +0100
+
+libfilesys-notify-simple-perl (0.08-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+
+  [ Angel Abad ]
+  * Imported Upstream version 0.08
+  * debian/copyright: Update debian/* section
+  * Bump debhelper compatibility level to 8
+  * Bump Standards-Version to 3.9.2 (no changes)
+
+  [ gregor herrmann ]
+  * debian/copyright: update years for inc/Module/*.
+
+ -- Angel Abad <angelabad@gmail.com>  Tue, 27 Sep 2011 09:14:31 +0200
+
+libfilesys-notify-simple-perl (0.07-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/copyright: Update license stanzas
+  * Bump Standards-Version to 3.9.1 (no changes)
+
+ -- Angel Abad <angelabad@gmail.com>  Fri, 14 Jan 2011 12:23:32 +0100
+
+libfilesys-notify-simple-perl (0.06-1) unstable; urgency=low
+
+  * New upstream release
+  * Add myself to uploaders
+  * Switch to 3.0 (quilt) format
+
+ -- Angel Abad <angelabad@gmail.com>  Tue, 30 Mar 2010 12:07:14 +0200
+
+libfilesys-notify-simple-perl (0.05-1) unstable; urgency=low
+
+  * Initial Release (Closes: #570040)
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Mon, 15 Feb 2010 21:58:35 -0500
